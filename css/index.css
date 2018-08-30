@@ -1,0 +1,121 @@
+body {
+    max-width: 1200px;
+    margin: 0 auto;
+    font-family: sans-serif;
+    font-size: 0.875em;
+    line-height: 1.6em;
+    background:#C1BDBD;
+}
+
+.blue-logo-letters {
+    color: #5D8AF4;
+    
+}
+header {
+    background-image: url("../img/backball.jpg");
+    background-position: center center;
+    background-size: cover;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 10%;
+}
+
+
+header h1 {
+    color: white;
+    margin-top: 25px;
+    font-size: 40px;
+    margin-left: 30px;
+    
+}
+
+header nav ul {
+    display: flex;
+}
+header nav ul li {
+     margin-right: 30px;
+     margin-bottom: 115px;
+     list-style-type: none;
+     
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#typeofguns {
+    color: #5D8AF4;
+    padding: 20px;
+}
+
+
+article {
+    padding: 10px;
+}
+
+#paintplaces {
+    padding: 20px;
+}
+
+aside img {
+    display: block;
+    width: 100%;
+}
+
+section aside {
+    float: right;
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+input[type=reset] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 10px;
+}
+
+.column {
+    float: left;
+    width: 50%;
+    margin-top: 6px;
+    padding: 20px;
+}
+
+footer p {
+    text-align: center;
+}
+
+
+
+
+
+
+
+
